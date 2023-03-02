@@ -88,7 +88,7 @@ const Card5details=[
   },
 ]; const Card5=()=>{
       return(
-        <div className="overflow-y-scroll h-3/6">
+        <div className="overflow-y-scroll h-full">
       {Card5details.map((eachData)=>{
         return(
           <CardE

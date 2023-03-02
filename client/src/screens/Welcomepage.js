@@ -21,10 +21,10 @@ function Welcomepage() {
                </div>
             </div>
         </div>
-        <div className='w-96 h-96 bg-white mx-auto my-auto rounded-2xl forms'>
+        <div className='w-96 h-fit bg-white mx-auto my-auto rounded-2xl forms pb-10'>
         <h1 className='pt-4 text-green-700 text-4xl font-bold ml-24 pt-6'>WELCOME</h1>
-        <h2 className='pt-4 text-xl ml-10 text-slate-900 font-semibold'>Your account has been created!!</h2>
-        <img className='w-48 mx-auto' src='/images/plant 1.png' alt='image not found'/>
+        <h2 className='pt-4 text-xl text-center text-slate-900 font-semibold'>Your account has been created!!</h2>
+        <img className='w-auto mx-auto' src='/images/plant 1.png' alt='image not found'/>
         <button  onClick={()=>navigate('/Farmerlandingpage')}className='text-large text-white font-semibold bg-green-700 rounded-lg w-44 h-10 ml-28 mt-5'>Get Started </button>
         </div>    
         </div>

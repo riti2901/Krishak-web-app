@@ -24,7 +24,7 @@ const Card4details=[
   },
   {
     id:'2',
-    name: "Farmer1 Name",
+    name: "Farmer2 Name",
     Amount:"Amount of Land",
     icon1:<AiOutlinePhone/>,
     icon2:<CgPlayTrackPrevO/>,
@@ -40,7 +40,7 @@ const Card4details=[
   },
   {
     id:'3',
-    name: "Farmer1 Name",
+    name: "Farmer3 Name",
     Amount:"Amount of Land",
     icon1:<AiOutlinePhone/>,
     icon2:<CgPlayTrackPrevO/>,
@@ -56,7 +56,7 @@ const Card4details=[
   },
   {
     id:'4',
-    name: "Farmer1 Name",
+    name: "Farmer4 Name",
     Amount:"Amount of Land",
     icon1:<AiOutlinePhone/>,
     icon2:<CgPlayTrackPrevO/>,
@@ -72,7 +72,7 @@ const Card4details=[
   },
   {
     id:'5',
-    name: "Farmer1 Name",
+    name: "Farmer5 Name",
     Amount:"Amount of Land",
     icon1:<AiOutlinePhone/>,
     icon2:<CgPlayTrackPrevO/>,
@@ -88,7 +88,7 @@ const Card4details=[
   },
 ]; const Card4=()=>{
       return(
-        <div className="overflow-y-scroll h-96">
+        <div className="overflow-y-scroll h-full">
       {Card4details.map((eachData)=>{
         return(
           <CardD

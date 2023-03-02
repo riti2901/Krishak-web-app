@@ -21,17 +21,17 @@ function Loginpage() {
                </div>
             </div>
         </div>
-        <div className='w-80 h-80 bg-white mx-auto my-auto rounded-2xl forms'>
+        <div className='w-80  bg-white mx-auto my-auto rounded-2xl forms pb-2 h-fit'>
         <form  className="pl-4" action='post'>
         <h1 className='pt-4 text-zinc-600 text-3xl font-bold ml-24'>Log in</h1>
     <div className=''>
     <div className='mt-5'>
             <label htmlFor='email'>Username/Email<br/></label>
-            <input className="w-72 h-8 br-4 bg-slate-200 rounded-md" type="text" name="email" id="email"/><br/><br/>
+            <input className="w-72 h-10 br-4  rounded-md input" type="text" name="email" id="email"/><br/><br/>
         </div>
         <div>
             <label htmlFor='Password'>Password<br/></label>
-            <input className="w-72 h-8 br-4 bg-slate-200 rounded-md" type="password" name="password" id="password"/>
+            <input className="w-72 h-10 br-4  rounded-md input" type="password" name="password" id="password"/>
         </div>
         <p><button className='text-green-700 text-xs font-bold ml-44 '>Forgot password?<br/><br/></button></p>
         <button onClick={()=>navigate('/Farmerlandingpage')}  className='text-large text-white font-semibold bg-green-800 rounded-lg w-36 h-8 ml-20'>LOGIN</button>

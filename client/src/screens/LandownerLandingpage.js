@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 function LandownerLandingpage() {
   return (
    <>
-   <div className="wholepage pb-20">
          <div className='flex flex-col'>
             <div className='flex justify-between items-center'>
                <div className='flex items-center '>
@@ -37,7 +36,7 @@ function LandownerLandingpage() {
         </div>   
       </div>
       <div className=' flex justify-between'>
-          <div className="filterform2 w-96 ml-20 filterform mt-10 h-fit">
+          <div className="filterform2 w-96 ml-20 filterform mt-10 h-fit pb-5">
           <div className="filters flex ml-24 gap-2">
           <BiSlider className='fill-green-600 text-4xl'/>
           <h1 className='text-3xl'>Filters</h1>
@@ -49,15 +48,15 @@ function LandownerLandingpage() {
             </div>
             <div className='mt-5 ml-10'>
             <label htmlFor='location'>Location<br/></label>
-            <input className=" w-72 h-8 br-4 bg-slate-200 rounded-md" type="text" name="loc" id="loc" placeholder='E.g. Hisar'/><br/><br/>
+            <input className=" w-72 h-10 br-4  rounded-md border-black border-2" type="text" name="loc" id="loc" placeholder='E.g. Hisar'/><br/><br/>
         </div> 
         <div className='mt-1 ml-10'>
             <label htmlFor='Crops'>Crops<br/></label>
-            <input className=" w-72 h-8 br-4 bg-slate-200 rounded-md" type="text" name="crops" id="crops"/><br/><br/>
+            <input className=" w-72 h-10 br-4  rounded-md border-black border-2" type="text" name="crops" id="crops"/><br/><br/>
         </div>
         <div className='mt-1 ml-10'>
             <label htmlFor='Time Duration'>Time Duration<br/></label>
-            <input className=" w-72 h-8 br-4 bg-slate-200 rounded-md" type="number" name="time" id="time" placeholder="E.g 2 (2 months)"/><br/><br/>
+            <input className=" w-72 h-10 br-4  rounded-md border-black border-2" type="number" name="time" id="time" placeholder="E.g 2 (2 months)"/><br/><br/>
         </div>
         <div className="btn flex justify-between mt-2 ml-4 mr-4 text-green-700 font-bold">
             <button className=''>Apply</button>
@@ -65,11 +64,12 @@ function LandownerLandingpage() {
         </div>
             </form>
           </div>
-          <div className="carousel3 w-3/6 mt-5 mr-10">
+          <div className="carousel3 w-3/6 mt-5 mr-10 h-[100vh]">
            <Card4/>
-          </div>
+           </div>
       </div>
-</div>
+      <div className="ftr h-24 w-full mt-10">
+           </div>
    </>
   )
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { GoLocation } from "react-icons/go";
  const CardE = (props) => {
    return(
-        <div className='cardslist p-5 ml-40 ' key={props.id}>
+        <div className='cardslist p-5 ml-40' key={props.id}>
             <div className=" text-gray-500 card w-11/12 p-5 text-center h-60 rounded-2xl farmerpagecard">
               <div className="line1 flex justify-between">
                   <h1  className="text-3xl font-semibold" >{props.name}</h1>

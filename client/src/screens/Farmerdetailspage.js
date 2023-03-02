@@ -21,28 +21,28 @@ function Farmerdetailspage() {
                </div>
             </div>
         </div>
-        <div className='w-96 h-96 bg-white mx-auto my-auto rounded-2xl forms'>
+        <div className='w-96 h-fit pb-5 bg-white mx-auto my-auto rounded-2xl forms'>
         <form action='post'>
         <h1 className='pt-4 text-zinc-600 text-3xl font-bold ml-14'>Enter Your details</h1>
     <div className=''>
     <div className='mt-5 ml-5'>
             <label htmlFor='name'>Name<br/></label>
-            <input className="w-80 h-8 br-4 bg-slate-200 rounded-md" type="text" name="name" id="name"/><br/><br/>
+            <input className="w-80 h-10 br-4  rounded-md input" type="text" name="name" id="name"/><br/><br/>
         </div>
         <div className='inline-block ml-5'>
         <label htmlFor='DOB'>DOB<br/></label>
-         <input className="w-36 h-8 br-4 bg-slate-200 rounded-md" type="date" name="DOB" id="DOB"/></div>
+         <input className="w-36 h-10 br-4  rounded-md input" type="date" name="DOB" id="DOB"/></div>
          <div className='inline-block ml-4'>
          <label htmlFor='yoe'> Years of Experience<br/></label>
-         <input className="w-36 h-8 br-4 bg-slate-200 rounded-md ml-3" type="number" name="yoe" id="yoe"/>
+         <input className="w-36 h-10 br-4  rounded-md  input" type="number" name="yoe" id="yoe"/>
          </div>
-        <div className='ml-4 inline-block'>
+        <div className='ml-5 inline-block mt-5'>
             <label htmlFor='state'>State<br/></label>
-            <input className="w-36 h-8 br-4 bg-slate-200 rounded-md ml-1" type="text" name="state" id="state"/>
+            <input className="w-36 h-10 br-4 rounded-md input" type="text" name="state" id="state"/>
         </div>
         <div className='ml-4 inline-block'>
             <label htmlFor='District'>District<br/></label>
-            <input className="w-36 h-8 br-4 bg-slate-200 rounded-md ml-3" type="text" name="district" id="District"/>
+            <input className="w-36 h-10 br-4  rounded-md input" type="text" name="district" id="District"/>
         </div>
         <button onClick={()=> navigate('/Welcomepage')}  className='text-large text-white font-semibold bg-green-700 rounded-lg w-36 h-8 ml-28 mt-5'>SUBMIT</button>
     </div>

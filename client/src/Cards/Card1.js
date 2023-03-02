@@ -42,3 +42,4 @@ const Card1details=[
     )
 }
 export default Card1;
+
